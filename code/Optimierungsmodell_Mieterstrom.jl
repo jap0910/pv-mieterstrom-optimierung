@@ -29,10 +29,10 @@
         exit()
     end
     limits = Dict(
-        :MIE_min =>9, :MIE_max => alle_WE, :MIE_step => 1.0,
-        :ALLG_min => 2, :ALLG_max => ALLG_mx, :ALLG_step => 1.0,
-        :GEW_min => 1, :GEW_max => GEW_mx, :GEW_step => 1.0,
-        :EMOB_min => 1, :EMOB_max => 1, :EMOB_step => 1.0
+        :MIE_min =>0, :MIE_max => alle_WE, :MIE_step => 1.0,
+        :ALLG_min => 0, :ALLG_max => ALLG_mx, :ALLG_step => 1.0,
+        :GEW_min => 0, :GEW_max => GEW_mx, :GEW_step => 1.0,
+        :EMOB_min => 0, :EMOB_max => 1, :EMOB_step => 1.0
     )
 
 # Speicherparameter

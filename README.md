@@ -13,6 +13,24 @@ Das Projekt besteht aus zwei zentralen Skripten:
 * **PV-Simulation**: Simulation der PV-Stromerzeugung (15min-Auflösung, PVGIS-Daten)
 * **Optimierungsmodell**: Wirtschaftliche Bewertung und Optimierung der Konfiguration von Mieterstromteilnehmenden
 
+## Projektstruktur
+
+```text
+pv-mieterstrom-optimierung/
+├── code/
+│   ├── Simulation PV-Stromproduktion.jl
+│   └── Optimierungsmodell_Mieterstrom.jl
+├── data/
+│   ├── pv/
+│   └── load_profiles/
+├── results/
+└── README.md
+```
+
+* `code/` enthält die beiden zentralen Julia-Skripte
+* `data/` enthält die Eingabedaten, insbesondere PV-Ertragsdaten und Lastprofile
+* `results/` enthält die vom Optimierungsmodell erzeugten Ergebnisdateien und Auswertungen
+
 ## Voraussetzungen
 
 ### Julia-Packages

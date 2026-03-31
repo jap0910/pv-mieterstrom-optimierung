@@ -4,14 +4,14 @@
 
 Dieses Repository enthält ein Modell zur Analyse und Optimierung von Photovoltaik-Mieterstromprojekten im urbanen Raum.
 
-Kernthese: Die Wirtschaftlichkeit von Mieterstromprojekten hängt stärker von der Verbraucherstruktur als von der eingesetzten Anlagentechnik ab.
+These: Die Wirtschaftlichkeit von Mieterstromprojekten ist stark von der Verbraucherstruktur und weniger von der eingesetzten Anlagentechnik abhängig.
 
 ## Projektstruktur
 
 Das Projekt besteht aus zwei zentralen Skripten:
 
-* **PV-Simulation**: Simulation der PV-Stromerzeugung (15-Minuten-Auflösung, PVGIS-Daten)
-* **Optimierungsmodell**: Wirtschaftliche Bewertung und Optimierung der Teilnehmerkonfiguration
+* **PV-Simulation**: Simulation der PV-Stromerzeugung (15min-Auflösung, PVGIS-Daten)
+* **Optimierungsmodell**: Wirtschaftliche Bewertung und Optimierung der Konfiguration von Mieterstromteilnehmenden
 
 ## Voraussetzungen
 
@@ -77,16 +77,16 @@ laufzeit = 20            # Laufzeit des Projekts
 
 Das Modell:
 
-* variiert Teilnehmerstrukturen (MIE, ALLG, GEW, EMOB)
+* variiert Teilnehmerzusammensetzung (MIE, ALLG, GEW, EMOB, WP)
 * berechnet Energieflüsse (Eigenverbrauch, Einspeisung, Netzbezug)
-* bewertet Wirtschaftlichkeit
+* bewertet Wirtschaftlichkeit (mit vs. ohne Speicher)
 * bestimmt das Gewinnmaximum
 
 ---
 
 ## Output
 
-* Optimale Teilnehmerkonfiguration
+* Optimale Teilnehmerkonfiguration und opt. Speicher
 * Jahresgewinn
 * Amortisationszeit
 * IRR
@@ -98,4 +98,4 @@ Das Modell:
 
 ## Kontext
 
-Das Modell wurde im Rahmen einer Masterarbeit zur Wirtschaftlichkeit von PV-Mieterstromprojekten entwickelt.
+Das Modell wurde im Rahmen einer Masterarbeit zur Wirtschaftlichkeit von PV-Mieterstromprojekten an der TU Berlin entwickelt.
